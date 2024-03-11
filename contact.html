@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <header class="header-overlay">
+        <div class="header-text">株式会社高橋巧務店</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">会社概要</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container-2">
+        <h2>お問い合わせ</h2>
+        <form action="送信先のURLを入力" method="POST">
+            <div class="form-group">
+                <label for="name">お名前:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="name">住所:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">メールアドレス:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">電話番号:</label> <!-- 電話番号の項目を追加 -->
+                <input type="text" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="message">お問い合わせ内容:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">送信</button> <!-- 送信ボタンの文字サイズを大きく -->
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="box company-details">
+            <p>会社名: 株式会社高橋巧務店</p>
+            <p>住所: 群馬県高崎市生原町６９８</p>
+            <p>電話番号: 027-371-2526</p>
+            <a href="contact.html">お問い合わせ</a>
+        </div>
+        <div class="box google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1205.7256940105347!2d138.96372587502793!3d36.39863894294162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601e8bde5a7af663%3A0xbe10a870d7af01ce!2z5pel5pys44CB44CSMzcwLTMxMDIg576k6aas55yM6auY5bSO5biC566V6YO355S655Sf5Y6f77yW77yZ77yZ4oiS77yR!5e0!3m2!1sja!2sph!4v1709175016187!5m2!1sja!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+</body>
+    
+
+</html>

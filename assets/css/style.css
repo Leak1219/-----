@@ -1,0 +1,407 @@
+* {
+   margin: 0;
+   padding: 0; 
+}
+
+.photo-section {
+    position: relative; 
+    text-align: center; 
+}
+
+.photo-section img {
+    max-width: 100%; 
+    height: 833px;
+    width: 100%;
+}
+
+
+
+.header-overlay {
+    position: fixed; 
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 0; 
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 999;
+    transition: top 0.3s;
+}
+
+.content {
+    padding-top: 80px; 
+    margin: 50px;
+}
+
+.header-text {
+    margin: 0;
+}
+
+.image-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    letter-spacing: 15px;
+    white-space: nowrap; /* 改行を抑制 */
+    font-family: "Arial", serif; /* フォントを指定 */
+}
+
+
+div {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav > ul  > li  > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.image-text2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    letter-spacing: 15px;
+    white-space: nowrap; /* 改行を抑制 */
+    font-family: "Arial", serif; /* フォントを指定 */
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Arial", serif;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border: solid 1px black;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    line-height: 120px;
+    margin-bottom: 10px;
+    background-color: #69b076;
+  }
+  
+  .outer-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; 
+  }
+
+  .outer-flex-container > h1 {
+    margin: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 1200px; 
+  }
+  
+  .content  {
+    text-align: center;
+    width: 100%;
+    padding: 0 20px; 
+    flex-grow: 1; }
+  
+  .content > h2 {
+    font-size: 20px;
+    margin-bottom: 10px; 
+    color: #69b076;
+  }
+  
+  .content div {
+    font-size: 16px; 
+  }
+  
+  .experience-text {
+    margin-top: 10px; 
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 1.5s ease;
+  }
+
+  .slides img {
+    width: 300px;
+    /* min-width: 50%; */
+    height: 200px;
+    margin: 0px 10px;
+    border-radius: 30px;
+  }
+
+ .fixed {
+    top: -100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+}
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+}
+td {
+    background-color: #fafafa;
+}
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.list {
+    text-decoration: none;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 上揃え */
+}
+
+.box {
+    width: 50%; 
+border: solid 0.5px;
+}
+
+.company-details,
+.google-maps {
+    height: 450px; /* ボックスの高さ */
+    background-color: #4eb352fe;
+}
+
+.google-maps iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.company-details  > p,
+.company-details  > a {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 50px;
+}
+
+
+/* お問い合わせボタンのスタイル */
+#contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* お問い合わせフォームのスタイル */
+#contact-form-container {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container-2 {
+    max-width: 1000px; /* 最大幅を1000pxに拡大 */
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 60px; /* 上下のパディングを増やす */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: auto;
+    overflow: hidden;
+}
+.container-2  > h2 {
+    text-align: center;
+    margin-bottom: 60px; /* マージンを増やす */
+    color: green;
+    font-size: 50px;
+}
+label {
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px; /* パディングを増やす */
+    margin-bottom: 30px; /* マージンを増やす */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* 角を丸める */
+}
+textarea {
+    resize: vertical; /* テキストエリアのリサイズを垂直方向にのみ許可 */
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 30px; /* パディングを増やす */
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.container-2 {
+    padding-bottom: 100px;
+}
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+/* h1, h2 {
+    color: #333;
+} */
+.container-3 {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.intro-text p {
+    padding: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+ 
+ #footer-2 {
+    position: fixed; /* 画面下部に固定 */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    z-index: 999; /* 他の要素より手前に表示 */
+}
+
+/* ボタンのスタイル */
+#contact-button {
+    background-color:green;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* .hidden {
+    display: none;
+} */
+
+.aiueo {
+
+    margin: 20px;
+}
